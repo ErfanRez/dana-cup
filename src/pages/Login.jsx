@@ -36,36 +36,7 @@ const Login = () => {
                 : "لطفا تلفن همراه خود را وارد نمایید."}
             </p>
           </div>
-          {/* <div className="pt-3 pb-3 text-xs flex flex-col gap-2 items- justify-between">
-            <form action="" className="flex flex-col">
-              <label htmlFor="" className="py-3">
-                تلفن همراه
-              </label>
-              <input
-                type="search"
-                className="bg-secondary-color-100 border border-1 rounded-lg py-2 h-full px-1"
-                placeholder="نام کاربری"
-              />
-            </form>
-          </div>
-          <div className=" flex items-center justify-between">
-            <input
-              type="numeric"
-              className="size-12 border border-1 rounded-lg"
-            />
-            <input
-              type="numeric"
-              className="size-12 border border-1 rounded-lg"
-            />
-            <input
-              type="numeric"
-              className="size-12 border border-1 rounded-lg"
-            />
-            <input
-              type="numeric"
-              className="size-12 border border-1 rounded-lg"
-            />
-          </div> */}
+          
           {!isDirected ? (
             <div className="pt-3 pb-3 text-xs flex flex-col gap-2 items- justify-between">
               <form action="" className="flex flex-col">
