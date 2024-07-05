@@ -17,10 +17,10 @@ const Public = () => {
         <div className="h-full w-full p-2">
           <div className="flex items-center justify-center">
             <div className="flex gap-2 items-center pt-3">
-              <img src="../public/logo.png" alt="" className="size-10" />
+              <img src="/logo.png" alt="" className="size-10" />
               <div>
                 <h2 className="font-extrabold">کتابخونه</h2>
-                <p className="text-secondary-color text-xs">
+                <p className="text-secondary-100 text-xs">
                   فروشگاه آنلاین کتاب
                 </p>
               </div>
@@ -34,7 +34,7 @@ const Public = () => {
             >
               ورود / ثبت نام
             </h3>
-            <p className="text-center text-secondary-color text-xs tracking-tighter">
+            <p className="text-center text-secondary-100 text-xs tracking-tighter">
               {isDirected
                 ? "کد تایید برای شماره 123456789 ارسال شد."
                 : "لطفا تلفن همراه خود را وارد نمایید."}
@@ -78,7 +78,7 @@ const Public = () => {
                 </label>
                 <input
                   type="search"
-                  className="bg-secondary-color-100 border border-1 rounded-lg py-2 h-full px-1"
+                  className="bg-slate-100 border rounded-lg py-2 h-full px-1"
                   placeholder="نام کاربری"
                 />
               </form>
@@ -110,13 +110,13 @@ const Public = () => {
 
           <div className="pt-3">
             <button
-              className="bg-primary-color w-full text-white rounded-lg flex items-center justify-center p-2 text-sm"
+              className="bg-primary w-full text-white rounded-lg flex items-center justify-center p-2 text-sm"
               onClick={() => handleDirected()}
             >
               ورود
             </button>
             {isDirected && (
-              <p className="text-[10px] text-secondary-color text-center p-5 tracking-tighter">
+              <p className="text-[10px] text-secondary-100 text-center p-5 tracking-tighter">
                 00:00 تا ارسال کد فعالسازی مجدد
               </p>
             )}
