@@ -6,6 +6,8 @@ html {
   scroll-behavior: smooth;
   direction: rtl;
   text-align: right;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 .Login {
