@@ -12,6 +12,7 @@ import wallet from "/wallet.png";
 const Dashbaord = () => {
   return (
     <>
+      <div className="text-black h-8 border bg-slate-700">hello</div>
       <div className="flex flex-col mx-0">
         <nav
           className="flex px-5 py-3 mt-3 mb-3 rounded-lg bg-transparent h-3 "

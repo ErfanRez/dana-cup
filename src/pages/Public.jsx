@@ -1,8 +1,12 @@
 import { useState } from "react";
+import axios from "axios";
 
 const Public = () => {
   const [isDirected, setIsDirected] = useState(false);
+  const [name, setName] = useState(null);
   const handleDirected = () => {
+    console.log(name);
+    axios.post("", name);
     setIsDirected(true);
   };
   return (
@@ -80,6 +84,7 @@ const Public = () => {
                   type="search"
                   className="bg-slate-100 border rounded-lg py-2 h-full px-1"
                   placeholder="نام کاربری"
+                  onClick={(e) => setName(e.target.value)}
                 />
               </form>
             </div>

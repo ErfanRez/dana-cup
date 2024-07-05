@@ -8,6 +8,10 @@ html {
   text-align: right;
 }
 
+body {
+  background-color: #f6f5f8;
+}
+
 .Login {
   background-image: url("../public/Login.jpg");
   background-size: cover;
