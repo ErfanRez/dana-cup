@@ -7,3 +7,9 @@ html {
   direction: rtl;
   text-align: right;
 }
+
+.Login {
+  background-image: url("../public/Login.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}

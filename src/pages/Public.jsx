@@ -1,5 +1,5 @@
 const Public = () => {
-  return <div>Public</div>;
+  return <div className="">Public</div>;
 };
 
 export default Public;
