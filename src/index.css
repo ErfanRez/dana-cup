@@ -9,3 +9,9 @@ html {
   padding-left: 5%;
   padding-right: 5%;
 }
+
+.Login {
+  background-image: url("../public/Login.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
